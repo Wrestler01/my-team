@@ -1,0 +1,43 @@
+.body-bottom {
+    margin: 0;
+    padding: 0;
+    top: 76px;
+    left: 263px;
+    display: flex;
+    max-width: 917px;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        font-family: $project-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 38px;
+        color: #012F34;
+    }
+
+    &__btn {
+        margin: 0;
+        padding: 9px 32px;
+        width: 170px;
+        border-radius: 50px;
+        font-family: $project-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #012F34;
+        cursor: pointer;
+        background-color: transparent;
+        border: 2px solid #012F34;
+
+        &:active {
+            color: #ffffff;
+            background-color: #012F34;
+        }
+    }
+}

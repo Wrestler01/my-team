@@ -1,0 +1,102 @@
+.body-center {
+    top: 140px;
+    left: 165px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 1110px;
+    position: relative;
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 56px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: $project-font;
+    }
+
+
+    &__span {
+        color: #79c8c7;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        position: relative;
+        justify-content: space-between;
+
+        &::before {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            content: "";
+            display: inline-block;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-position: top left 142px, top left 522px, top right 141px;
+            background-size: 67px 56px;
+            background-image: url("/images/quote.svg"), url("/images/quote.svg"), url("/images/quote.svg");
+        }
+    }
+
+    &__item {
+        display: flex;
+        position: relative;
+        margin-right: 30px;
+        flex-direction: column;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+        font-family: $project-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2px;
+        font-family: $project-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #79C8C7;
+    }
+
+    &__letter {
+        font-family: $project-font;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__image {
+        margin: 0;
+        padding: 0;
+        margin-left: 144px;
+        width: 62px;
+        height: 62px;
+    }
+}
